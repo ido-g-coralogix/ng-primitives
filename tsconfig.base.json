@@ -50,6 +50,7 @@
       "ng-primitives/search": ["packages/ng-primitives/search/src/index.ts"],
       "ng-primitives/select": ["packages/ng-primitives/select/src/index.ts"],
       "ng-primitives/separator": ["packages/ng-primitives/separator/src/index.ts"],
+      "ng-primitives/skeleton": ["packages/ng-primitives/skeleton/src/index.ts"],
       "ng-primitives/slider": ["packages/ng-primitives/slider/src/index.ts"],
       "ng-primitives/state": ["packages/ng-primitives/state/src/index.ts"],
       "ng-primitives/switch": ["packages/ng-primitives/switch/src/index.ts"],
