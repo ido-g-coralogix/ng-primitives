@@ -28,7 +28,7 @@ import { NgpInputOtp, NgpInputOtpSlot } from 'ng-primitives/input-otp';
   standalone: true,
   imports: [NgpInputOtp, NgpInputOtpSlot],
   template: `
-    <div ngpInputOtp [ngpInputOtpMaxLength]="6">
+    <div [ngpInputOtpMaxLength]="6" ngpInputOtp>
       <div ngpInputOtpSlot="0"></div>
       <div ngpInputOtpSlot="1"></div>
       <div ngpInputOtpSlot="2"></div>
@@ -56,7 +56,7 @@ import {
   standalone: true,
   imports: [NgpInputOtp, NgpInputOtpGroup, NgpInputOtpSlot, NgpInputOtpSeparator],
   template: `
-    <div ngpInputOtp [ngpInputOtpMaxLength]="6">
+    <div [ngpInputOtpMaxLength]="6" ngpInputOtp>
       <div ngpInputOtpGroup>
         <div ngpInputOtpSlot="0"></div>
         <div ngpInputOtpSlot="1"></div>
@@ -85,7 +85,7 @@ import { NgpInputOtp, NgpInputOtpSlot } from 'ng-primitives/input-otp';
   standalone: true,
   imports: [ReactiveFormsModule, NgpInputOtp, NgpInputOtpSlot],
   template: `
-    <div ngpInputOtp [formControl]="otpControl" [ngpInputOtpMaxLength]="6">
+    <div [formControl]="otpControl" [ngpInputOtpMaxLength]="6" ngpInputOtp>
       <div ngpInputOtpSlot="0"></div>
       <div ngpInputOtpSlot="1"></div>
       <div ngpInputOtpSlot="2"></div>
